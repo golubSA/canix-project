@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <count>4</count>
+    <title>Продажа травы</title>
+    <users>
+        <user id="1">
+            <role>Покупатель</role>
+            <name>Антон</name>
+            <job>Строитель</job>
+            <age>38</age>
+            <country>Аргентина</country>
+            <amountInGramm>70</amountInGramm>
+            <cash>200$</cash>
+        </user>
+        <user id="2">
+            <role>Продавец</role>
+            <name>Кузя</name>
+            <age>32</age>
+            <job>Бизнесмен</job>
+            <country>Австралия</country>
+            <amountInGramm>2000</amountInGramm>
+            <cash>4000$</cash>
+        </user>
+        <user id="3">
+            <role>Покупатель</role>
+            <name>Игнат</name>
+            <job>Рабочий</job>
+            <age>56</age>
+            <country>Мексика</country>
+            <amountInGramm>180</amountInGramm>
+            <cash>380$</cash>
+        </user>
+        <user id="4">
+            <role>Покупатель</role>
+            <name>Егор</name>
+            <job>Программист</job>
+            <age>25</age>
+            <country>Чехия</country>
+            <amountInGramm>4000</amountInGramm>
+            <cash>5600$</cash>
+        </user>
+    </users>
