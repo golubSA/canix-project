@@ -1,0 +1,48 @@
+	<style>
+		body:after{
+			content: "";
+			background-size: cover;
+			opacity: 0.5;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			position: absolute;
+			z-index: -1; 
+		}
+		.box{
+			margin-top: 10%;
+			display: flex;
+			justify-content: space-around;
+		}
+		a{
+			font-size: 40px;
+			text-decoration: none;
+			border: 1px solid #ccc;
+			border-radius: 20px;
+			height: 400px;
+			width: 300px;
+			text-align: center;
+		}
+		.box div{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 350px;
+			height: 420px;
+		}
+	</style>
+	<div>
+		<h1>Canix</h1>
+		<ul>
+			<div class="box">
+				<div><a href="/users">Пользователи</a></div>
+				<div><a href="/seller">Продавцы </a></div>
+				<div><a href="/shoppers">Покупатели</a></div>
+			</div>
+		</ul>
+	</div>
+    {{> footer}}
+
+
+
